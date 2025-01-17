@@ -1,6 +1,6 @@
 # Self-Supervised Image Pretraining and Classification
 
-Self-supervised pre-training using [Bootstrap Your Own Latent (BYOL)](https://github.com/lucidrains/byol-pytorch/tree/master). 
+Self-supervised pretraining using [Bootstrap Your Own Latent (BYOL)](https://github.com/lucidrains/byol-pytorch/tree/master). 
 
 BYOL relies on two neural networks, referred to as **online networks** and **target networks**, that interact and learn from each other. From an augmented view of an image, the online network is trained to predict the target network representation of the same image under a different augmented view. At the same time, the target network is updated with a slow-moving average of the online network. ([Reference](https://sh-tsang.medium.com/review-byol-bootstrap-your-own-latent-a-new-approach-to-self-supervised-learning-6f770a624441))
 
